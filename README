@@ -7,4 +7,5 @@
   * NPM modules
   
   - connect
-  - connect-auth 
+  - connect-auth
+  - oauth

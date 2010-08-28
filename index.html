@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <style>
+      body {
+        font: normal normal normal 13px/normal 'Lucida Grande', 'Lucida Sans Unicode', arial, sans-serif;
+        color: #635E57;
+        font-size: 16px;
+        line-height: 1.375;
+      }
+
+      #logo {
+        text-align: left;
+        margin: 5em auto;
+        width: 500px;
+      }
+
+      #instructions {
+        text-align: left;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+      }
+
+      pre { margin: 1.5em 0 ; }
+
+    </style>
+    <title>Joyent Smart Machine</title>
+  </head>
+  <body>
+    <div id="logo"><img src="logo.png"></div>
+    <div id="instructions">
+      <pre>
+git remote add joyent ssh://node@ipaddress/repo
+git push joyent master
+</pre>
+Optionally:
+<pre>
+ssh node@ipaddress
+</pre>
+
+In a few minutes the nameservers will propagate your subdomain record and
+you will be able to access your server at
+<b><code>yourname.no.de</code></b>. Until then use the ipaddress.
+
+    </div>
+  </body>
+</html>

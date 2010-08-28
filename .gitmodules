@@ -1,0 +1,3 @@
+[submodule "Deploy"]
+	path = Deploy
+	url = ssh://node@celestial-being.no.de/repo

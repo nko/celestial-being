@@ -1,0 +1,10 @@
+= About =
+
+  A tabbed Twitter interface 
+
+= Requirements =
+
+  * NPM modules
+  
+  - connect
+  - connect-auth 

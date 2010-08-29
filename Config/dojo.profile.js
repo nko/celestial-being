@@ -25,6 +25,7 @@ dependencies = {
 
 				'dijit._Widget',
 				'dojo.window',
+				'dojo.date.locale',
 				
 				'dojox.dtl._DomTemplated',
 				"dojox.dtl",
@@ -39,7 +40,8 @@ dependencies = {
         'TweetIRC.Kernel',
         'TweetIRC.ChatRoom',
         'TweetIRC.plugins.BasePlugin',
-        'TweetIRC.plugins.ChatRoomPlugin'
+        'TweetIRC.plugins.ChatRoomPlugin',
+        'TweetIRC.plugins.NodeKOPlugin'
 			]
 		}
 	],

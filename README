@@ -1,6 +1,23 @@
 = About =
 
-  A tabbed Twitter interface 
+  A tabbed Twitter interface.
+  
+  A chat room can be:
+  
+  - a Twitter search stream (for example, a hashtag)
+  - a user's timeline
+  - a user's private list stream
+  - current user private messages
+  - current user private messages with another user (emulating PVT messaging/chatrooms)
+
+  For the purpose of Node Nockout, the goa is to allow creating rooms to follow public hashtags
+  
+  
+ = Implementation =
+ 
+ - Data I/O between chatrooms and server is abstracted using the dojo publish/subscriber model. This allows easy implementation
+ of adicional networks, as facebook, real IRC ...  
+ - Core features are implemented in a "kernel" and everything else is implemented using plugins 
 
 = Requirements =
 

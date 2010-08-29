@@ -30,3 +30,11 @@
   - connect
   - connect-auth
   - oauth
+  
+  
+ = TODO =
+ 
+ - Focus the chatrooms on the last message
+ - Post twitter messages
+ - Memcached support
+ - Some more.

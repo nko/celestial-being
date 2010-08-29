@@ -24,7 +24,8 @@ dependencies = {
 				"dijit.form.TextBox",
 
 				'dijit._Widget',
-
+				'dojo.window',
+				
 				'dojox.dtl._DomTemplated',
 				"dojox.dtl",
 				"dojox.dtl.Context",

@@ -26,6 +26,7 @@ dependencies = {
 				'dijit._Widget',
 				'dojo.window',
 				'dojo.date.locale',
+				'dojox.timing',
 				
 				'dojox.dtl._DomTemplated',
 				"dojox.dtl",

@@ -34,13 +34,19 @@ dependencies = {
 				"dojox.dtl.filter.dates",
 				"dojox.dtl.utils.date",
 				"dojox.dtl.filter.strings",
-				"dojox.dtl.filter.htmlstrings"				
+				"dojox.dtl.filter.htmlstrings",
+				
+        'TweetIRC.Kernel',
+        'TweetIRC.ChatRoom',
+        'TweetIRC.plugins.BasePlugin',
+        'TweetIRC.plugins.ChatRoomPlugin'
 			]
 		}
 	],
 
 	prefixes: [
 		[ "dijit", "../dijit" ],
-		[ "dojox", "../dojox" ]
+		[ "dojox", "../dojox" ],
+		[ "TweetIRC", "/home/zemanel/Dropbox/NodeKnockout/Project/Deploy/Resources/js/TweetIRC" ]
 	]
 }

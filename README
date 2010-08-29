@@ -10,7 +10,7 @@
   - current user private messages
   - current user private messages with another user (emulating PVT messaging/chatrooms)
 
-  For the purpose of Node Nockout, the goa is to allow creating rooms to follow public hashtags
+  For the purpose of Node Knockout, the goal is to allow creating rooms to follow public hashtags (work in progress)
   
   
  = Implementation =

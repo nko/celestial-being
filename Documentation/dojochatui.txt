@@ -1,0 +1,13 @@
+          <!-- Notices TAB -->
+          <div dojoType="dijit.layout.BorderContainer" gutters="true" title="notices">
+            <div dojoType="dijit.layout.ContentPane" region="center">
+              hell-o world
+            </div>
+            <!-- CLI -->
+            <div dojoType="dijit.layout.ContentPane" title="command line" region="bottom" splitter="false">
+              <input dojoType="dijit.form.TextBox" class="span-24" name="cmd" id="cmd" />
+              <button dojoType="dijit.form.Button" type="button" showLabel="true">send message</button>
+            </div>
+            <!-- // CLI -->
+          </div>
+          <!-- // Notices TAB -->

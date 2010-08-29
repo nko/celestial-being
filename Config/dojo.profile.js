@@ -23,6 +23,17 @@ dependencies = {
 				"dijit.TooltipDialog",
 				"dijit.form.TextBox",
 
+				'dijit._Widget',
+
+				'dojox.dtl._DomTemplated',
+				"dojox.dtl",
+				"dojox.dtl.Context",
+				"dojox.dtl.filter.lists",
+				"dojox.dtl.tag.logic",
+				"dojox.dtl.filter.dates",
+				"dojox.dtl.utils.date",
+				"dojox.dtl.filter.strings",
+				"dojox.dtl.filter.htmlstrings"				
 			]
 		}
 	],

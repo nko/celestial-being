@@ -12,6 +12,10 @@
 
   For the purpose of Node Knockout, the goal is to allow creating rooms to follow public hashtags (work in progress)
   
+ = About posting messages =
+
+  Although typing a message will display it on the chatroom, messages arent being posted to Twitter.
+  48h and 1 man army aren't enough to develop the required security. 
   
  = Implementation =
  
